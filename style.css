@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    background-color: pink;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resume {
+    background-color: white;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#resume h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+#resume h3 {
+    color: #007bff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
